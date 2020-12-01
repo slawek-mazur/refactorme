@@ -8,51 +8,7 @@ import java.util.stream.Collectors;
 
 public class RefactorMeRecommendation {
 
-  public static void main(String[] args) {
-
-    System.out.println("Improve / refactor / change these code snippets into something more meanigful");
-    System.out.println("Add comments on why the changes were made\n");
-
-    /*
-    Asset a1 = new Asset("a1", 100);
-    Asset a2 = new Asset("a2", 200);
-    Asset a3 = new Asset("a3", 200);
-    Asset a4 = new Asset("a4", 10000);
-
-    ArrayList<Asset> assets1 = new ArrayList<>();
-    assets1.add(a1);
-    assets1.add(a2);
-    assets1.add(a3);
-
-    ArrayList<Asset> assets2 = new ArrayList<>();
-    assets2.add(a2);
-    assets2.add(a3);
-    assets2.add(a4);
-
-    Project p1 = new Project("p1", Manager.withId("m1"), assets1);
-    Project p2 = new Project("p2", Manager.withId("m2"), assets2);
-
-    ProjectPortfolio pp = new ProjectPortfolio();
-    pp.addProject(p1);
-
-    System.out.println("Test 1 for 100 - expected true : " + pp.ifVeryProfitableAssetsExist(50));
-    System.out.println("Test 1 for 300 - expected false : " + pp.ifVeryProfitableAssetsExist(300));
-
-    pp.addProject(p2);
-
-    System.out.println("Test 2 for 150 - expected true : " + pp.ifVeryProfitableAssetsExist(150));
-    System.out.println("Test 2 for 1000 - expected true : " + pp.ifVeryProfitableAssetsExist(1000));
-    System.out.println("Test 2 for 1000000 - expected false : " + pp.ifVeryProfitableAssetsExist(1000000));
-
-    pp.addManagersAndProjects("m1", Arrays.asList("id1", "id2"));
-    System.out.println("Test 3 for 1 projects - expected false : " + (pp.managersAndProject.get("m1").size() == 1));
-    System.out.println("Test 3 for 2 projects - expected true : " + (pp.managersAndProject.get("m1").size() == 2));
-    pp.addManagersAndProjects("m1", Arrays.asList("id100", "id5"));
-    System.out.println("Test 3 for 1 projects - expected false : " + (pp.managersAndProject.get("m1").size() == 1));
-    System.out.println("Test 3 for 4 projects - expected true : " + (pp.managersAndProject.get("m1").size() == 4));
-    */
-  }
-
+  public static void main(String[] args) { }
 
   static class ProjectPortfolio {
 
